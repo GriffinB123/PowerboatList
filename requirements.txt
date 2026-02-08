@@ -1,0 +1,6 @@
+anthropic
+requests
+pandas
+python-dotenv
+gspread
+google-auth

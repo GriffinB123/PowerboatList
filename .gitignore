@@ -50,3 +50,13 @@ Thumbs.db
 results/
 *.csv
 *.xlsx
+*.log
+
+# Runtime database
+boats.db
+
+# Legacy duplicate
+PowerboatList/
+
+# Claude Code local settings
+.claude/settings.local.json

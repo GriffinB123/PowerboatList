@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "slack": {
+      "type": "sse",
+      "url": "https://mcp.slack.com/sse"
+    }
+  }
+}

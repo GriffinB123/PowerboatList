@@ -1,0 +1,33 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include QUICKSTART.md
+include EXAMPLES.md
+include CONTRIBUTING.md
+include CONTRIBUTORS.md
+include PROJECT_STATUS.md
+include RELEASE.md
+
+# Include configuration templates
+include config_template.py
+include .env.example
+
+# Include notebook
+include powerboat_search.ipynb
+
+# Include test files
+include test_search_boats.py
+include pytest.ini
+
+# Include memory-bank documentation
+recursive-include memory-bank *.md
+
+# Exclude unnecessary files
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude *.log
+global-exclude *.csv
+prune .github
+prune .git
