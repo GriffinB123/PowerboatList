@@ -115,6 +115,19 @@ Tests cover: filtering logic, duplicate detection, boundary conditions, API mock
 
 ---
 
+## Parallel Work
+
+### Git Worktrees
+```bash
+git worktree add ../PowerboatList-feature -b feature-name
+git worktree remove ../PowerboatList-feature
+```
+
+### Agent Teams
+Claude automatically spawns agent teams for complex tasks (cross-layer features, multi-perspective reviews, competing-hypothesis debugging). No commands needed — see global CLAUDE.md for trigger rules.
+
+---
+
 ## Debugging (This Project)
 
 | Issue | Solution |
