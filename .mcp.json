@@ -7,6 +7,10 @@
     "slack": {
       "type": "sse",
       "url": "https://mcp.slack.com/sse"
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
     }
   }
 }
